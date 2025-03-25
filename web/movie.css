@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   /* background:#e8e8e8;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Poppins",sans-serif;
+}
+.m1{
+    width:650px;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 18px;
+    background:black;
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.7),5px 5px 10px rgba(0,0,0,0.7);
+}
+.m2{
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+}
+.m2 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mbody{
+    width:400px;
+    padding:2rem;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 12px;
+    color:#bdb8b8;
+
+}
+.title{
+    color:#e8e8e8;
+    font-size:26px;
+    letter-spacing: 3px;
+
+}
+.rating{
+    margin-top: -12px;
+    color:gold;
+
+}
+.des{
+    padding:-18px;
+    margin-right: 8px;
+    color:#e8e8e8;
+}
+button{
+    padding:10px;
+    background: transparent;
+    color:gold;
+    border:2px solid gold;
+    border-radius: 7px;
+    transition: 0.1s ease-in;
+    
+}
+button:hover{
+    background: gold;
+    color: black;
+
+}
+a:hover{
+    background: gold;
+    color: gold;
+
+}
+.m1:hover{
+    transform: scale(1.1);
+    box-shadow:  0 0 80px -25px rgba(0,0,0,0.5);
+    /*transition:1s ease-in-out;*/
+
+}.button{
+    display: flex;
+}
+.space{
+    padding:20px;
+}
+
+
+

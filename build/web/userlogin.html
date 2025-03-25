@@ -1,0 +1,133 @@
+
+<html lang="en">
+  <head>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+    background-image: url("./images/login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  width: 360px;
+  flex: 0.5 1 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card .label-float input {
+  width: 100%;
+  padding: 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #000;
+  background-color: transparent;
+  outline: 0;
+  transition: 0.1s linear;
+  min-width: 180px;
+  font-size: 16px;
+}
+
+.label-float {
+  position: relative;
+  padding-top: 15px;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  display: flex;
+  align-items: center;
+}
+input[type="submit"] {
+  background-color: transparent;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  color: #fff;
+}
+
+.justify {
+  display: flex;
+  justify-content: center;
+}
+
+.label-float img {
+  position: absolute;
+  width: 20px;
+  right: 0;
+  cursor: pointer;
+}
+.label-float img:hover {
+  position: absolute;
+  width: 20px;
+  right: 0;
+  cursor: pointer;
+}
+.s{
+    margin-top: 20px;
+}
+.h{
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    left:42%;
+    top:3%;
+    margin-top: 20px;
+    color: white;
+}
+::placeholder{
+    color: black;
+    font-weight: bolder;
+}
+    </style>
+  </head>
+  <body>
+    <h1 class="h"> URVERSE </h1>
+    <main>
+      <div class="container">
+        <form action="ulogin.jsp" method="get">
+          <div class="card">
+            <h1>Log in</h1>
+            <div class="label-float">
+              <input type="text" name="uname" placeholder="User Name" >
+            </div>
+            <div class="label-float">
+              <input type="password" name="password" placeholder="Password" >
+            </div>
+
+            <div class="justify">
+              <input type="submit" value="Submit">
+            </div><br>
+            <h3 style="color:white">Don't have an account...? <a href="usignup.html">Sign Up</a></h3>
+            <div class="sep">
+              
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+      
+  </body>
+  </html>
+  

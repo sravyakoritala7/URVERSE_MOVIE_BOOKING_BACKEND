@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert booking</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Joan', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #adadad;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #cd8c38;
+    border-radius: 32px;
+    color: #1e1f26;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #92601f;
+}
+
+.btn-l {
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    background-color: #1e1f26;
+    display: grid;
+    grid-template-columns: 1000px;
+    justify-content: space-evenly;
+}
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 16px;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-right: 48px;
+    color: #cd8c38;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    margin-right: 16px;
+}
+
+.navigation li a:hover {
+    color: #cd8c38;
+}
+
+.active {
+    color: #cd8c38;
+}
+
+.filter,
+.cart,
+.help,
+.menu {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.filter,
+.cart,
+.help {
+    margin-right: 16px;
+}
+
+.menu {
+    margin-left: 12px;
+}
+
+.filter,
+.menu {
+    display: none;
+}
+
+.profile-img-box {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-container {
+    color: #adadad;
+    display: grid;
+    grid-template-columns: 225px 675px;
+    gap: 32px;
+}
+.sidebar {
+    background: linear-gradient(45deg, rgba(255, 255, 255, .05), rgba(205, 140, 56, .15));
+    backdrop-filter: blur(5px);
+    height: fit-content;
+    border-radius: 16px;
+    padding: 32px 40px;
+}
+.sidebar-groups {
+    margin-bottom: 16px;
+}
+
+.sg-title {
+    margin-bottom:8px ;
+    color: #fff;
+}
+
+input {
+    margin-bottom: 10;
+}
+
+input[type=checkbox]:checked {
+    accent-color: #cd8c38;
+}
+
+input[type=radio]:checked {
+    accent-color: #cd8c38;
+}
+
+label {
+    margin-left:8px;
+}
+.upcoming-img-box {
+    position: relative;
+    height: 600px;
+    width: 65%;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.upcoming-title {
+    position: absolute;
+    top: 32px;
+    left: 12px;
+    color: #cd8c38;
+    background-color: #1e1f26;
+    padding: 4px 16px;
+    border-radius: 32px;
+    border: 1px solid #cd8c38;
+    font-weight: 500;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 32px;
+    left:32px;
+}
+
+.btn-alt {
+    background-color: #1e1f26;
+    color: #cd8c38;
+    border: 1px solid #cd8c38;
+    margin-left: 16px;
+}
+
+.btn-alt:hover {
+    color: #1e1f26;
+    background-color: #cd8c38;
+}
+
+.concerts-container {
+    padding-bottom: 32px;
+}
+
+.current-concerts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:24px;
+}
+
+.current-concert {
+    background: linear-gradient(45deg, rgba(255, 255, 255, .05), rgba(205, 140, 56, .15));
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.cm-img-box {
+    position: relative;
+    height: 150px;
+    width: auto;
+    margin-bottom: 16px;
+    border: radius 8px;;
+    overflow: hidden;
+}
+
+.concert-title {
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.booking {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.price {
+    color: #cd8c38;
+}
+    </style>
+</head>
+
+<body>
+    <section class="top-bar">
+        <div class="left-content">
+            <h2 class="title">Urverse</h2>
+            <ul class="navigation">
+                <li><a href="movies.jsp">Home</a></li>
+                <li><a class="active" href="#">Concert/Events</a></li>
+                <li><a href="moviebooking.html">Movies</a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+    <section class="main-container">
+        <div class="sidebar">
+            <form action="#">
+                <div class="sidebar-groups">
+                    <h3 class="sg-title">Date</h3>
+                    <input type="checkbox" id="Today" name="Today" value="Today">
+                    <label for="Today">Today</label><br>
+                    <input type="checkbox" id="Tomorrow" name="Tomorrow" value="Tomorrow">
+                    <label for="Tomorrow">Tomorrow</label><br>
+                    <input type="checkbox" id="Workshops" name="Workshops" value="Workshops">
+                    <label for="Workshops">This Weekend</label><br><br>
+                    <h3 class="sg-title">Categories</h3>
+                    <input type="checkbox" id="OnlineEvents" name="Online Events" value="Online Events">
+                    <label for="MusicShows">Music Shows</label><br>
+                </div>
+                <div class="sidebar-groups">
+                    <h3 class="sg-title">Language</h3>
+                    <input type="checkbox" id="english" name="english" value="english">
+                    <label for="english">English</label><br>
+                    <input type="checkbox" id="hindi" name="hindi" value="hindi">
+                    <label for="hindi">Hindi</label><br>
+                    <input type="checkbox" id="Telugu" name="Telugu" value="Telugu">
+                    <label for="Telugu">Telugu</label><br>
+                    <input type="checkbox" id="Korean" name="Korean" value="Korean">
+                    <label for="Korean">Korean</label><br>
+                </div>
+                <div class="sidebar-groups">
+                    <h3 class="sg-title">Time</h3>
+                    <input type="radio" id="morning" name="time" value="morning">
+                    <label for="morning">Morning</label><br>
+                    <input type="radio" id="night" name="time" value="night">
+                    <label for="night">Night</label><br>
+                </div>
+                <div class="sidebar-groups">
+                    <a href="#" class="btn-l btn">Apply Filters</a>
+                </div>
+            </form>
+        </div>
+        <div class="concerts-container">
+            <p>
+                <a href="#" class="btn-alt btn">Music Shows</a>
+            
+            </p>
+            <br>
+            <div class="upcoming-img-box">
+                <img src="https://i.ebayimg.com/images/g/bZ0AAOSwS2VgmGPq/s-l1200.webp" alt="">
+                <p class="upcoming-title">#1 Trending</p>
+            </div>
+            <div class="current-concerts">
+                <div class="current-concert">
+                    <div class="cm-img-box">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/81%2BggV5X6SL.jpg" alt="">
+                    </div>
+                    <h3 class="concert-title">BTS:Yet To Come</h3>
+                    <p class="screen-name">Screen : Platinum</p>
+                    <div class="booking">
+                        <h3 class="price">20000/-</h3>
+                        <a href="booking.html" class="btn">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="current-concert">
+                    <div class="cm-img-box">
+                        <img src="https://m.media-amazon.com/images/I/514teDSzETL.jpg" alt="">
+                    </div>
+                    <h3 class="concert-title">BlackPink:in ur area</h3>
+                    <p class="screen-name">Screen :Gold</p>
+                    <div class="booking">
+                        <h3 class="price">20000/-</h3>
+                        <a href="booking.html" class="btn">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="current-concert">
+                    <div class="cm-img-box">
+                        <img src="https://i.pinimg.com/736x/66/da/7d/66da7d37a993cf458796ed5eca2de17f.jpg" alt="">
+                    </div>
+                    <h3 class="concert-title" style="font-size: 15px;">Taylors Swift:The Eras Tour</h3>
+                    <p class="screen-name">Screen : Silver</p>
+                    <div class="booking">
+                        <h3 class="price">20000/-</h3>
+                        <a href="booking.html" class="btn">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

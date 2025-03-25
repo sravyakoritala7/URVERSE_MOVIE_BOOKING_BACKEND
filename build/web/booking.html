@@ -1,0 +1,284 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <style>
+        /*rgb(4, 21, 35)*/
+        body{
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: linear-gradient(to bottom right,rgba(0, 0, 0, 0.965),rgba(210, 204, 204, 0.722)),url("https://e0.pxfuel.com/wallpapers/559/84/desktop-wallpaper-movie-theater-background-movie-cinema.jpg");
+            color:#cd8c38;
+            font-weight: bold;
+        }
+
+        input[type=checkbox] {
+    margin: 4px;
+    line-height: normal;
+    width: 25px;
+    height: 25px;
+    border-width: 5px;
+    outline: 2px solid #ccc;
+    border-width: 5px;
+}
+.screen{
+       background-color: #fff;
+        width: 200px; 
+        height: 100px; 
+        margin: 50px auto;
+        margin-bottom: -15px;
+        transform: perspective(300px) rotateX(-30deg); 
+        border: 2px solid white;
+        box-shadow: 0 3px 8px rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        overflow: hidden; 
+
+}
+#t1{
+    padding:10px;
+    background-color:white;
+    border:2px solid #cd8c38 ;
+    color:#cd8c38;
+    border-radius: 7px;
+    font-weight: bold;
+}
+#t1:hover{
+    background-color:#cd8c38;
+    color:white;
+}
+#m,#time{
+    border: 2px solid white;
+    padding:5px;
+    border-radius:7px;
+    background-color: #e4d2ba;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+}
+.total{
+    border:3px solid #333;
+    margin-top: 90px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 250px;
+    background-color: #333; 
+    opacity: 0.7;
+    border-radius: 40px;
+    box-shadow: 8px 20px 20px rgba(255, 255, 255, 0.7);
+}
+#movies,#timings{
+    border-radius:8px;
+    padding:5px;
+    border:1px solid #ccc;
+    box-shadow: 0 3px 8px rgba(255, 255, 255, 0.7);
+}
+#m,
+#time {
+    position: absolute;
+    bottom: 0;
+    left: 50px; /* Adjust left position as needed */
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #e4d2ba;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+    <form action="bookings.jsp">
+        <section class="top-bar">
+            <div class="left-content">
+                <h1 class="title" style="text-justify: center; font-size: 55px;"><center>Urverse</center></h1>
+        </section>
+        <div class="total">
+               
+       <center>
+        <br><br>
+        <div class="movie">
+        Select Movie : <select name="movies" id="movies">
+            <option value=""></option>
+            <option>Leo</option>
+            <option>Salaar</option>
+            <option>Bhagawanth Kesari</option>
+            <option>BTS:Yet To Come</option>
+        </select> 
+        Select Theatre : <select name="theatres" id="timings">
+            <option></option>
+            <option>Cinepolis: Power One Mall, Vijayawada</option>
+            <option>Cinepolis: PVP Square Mall, Vijayawada</option>
+        </select>
+        Select Timings : <select name="timings" id="timings">
+            <option></option>
+            <option>9:00AM</option>
+            <option>12:30PM</option>
+            <option>3:00PM</option>
+        </select> <br>
+        
+        <div class="screen">
+         <p style="text-align:center;">All eyes are here</p>
+        </div>
+        <br>
+    </div>
+        <script>
+            const letters=[]
+            for(let i=65;i<=69;i++){
+                letters.push(String.fromCharCode(i));
+            }
+                document.write("<br>Normal<br><br>")
+                document.write("<br>");
+            document.write("<div style='display: flex; justify-content: center;'>");
+            for (let i = 1; i <= 10; i++) {
+               
+                if(i===1){
+                    document.write("<span style='font-size: 25px; padding: 0 15px 0px 60px;'>" + i + "</span>");
+                }
+                else if(i===2){
+                    document.write("<span style='font-size: 25px; padding: 0 15px 0px 5px;'>" + i + "</span>");
+                }
+                else{
+                    document.write("<span style='font-size: 25px; padding: 0 15px 0px 5px;'>" + i + "</span>");
+                }
+            }
+            document.write("</div>");
+            document.write("<br>");
+            for(let i=1;i<=10;i++){
+                if(i==1){
+                document.write("<span style='font-size:25px;'>A&nbsp;&nbsp;&nbsp;</span>")
+                }
+            document.write("<input type='checkbox' name='aseatsno' class='seat-label' value=" +letters[0]+ i + ">");
+          if(i%10===0){ document.write("<br>");}
+
+        }
+        for(let i=1;i<=10;i++){
+            if(i==1){
+                document.write("<span style='font-size:25px;'>B&nbsp;&nbsp;&nbsp;</span>")
+                }
+            document.write("<input type='checkbox' name='aseatsno' class='seat-label' value=" +letters[1]+ i + ">");
+            if(i%10===0){ document.write("<br>");}
+               
+            if(i==10){
+                    document.write("<br>Executive<br><br>")
+                }
+        }
+        for(let i=1;i<=10;i++){
+            if(i==1){
+                document.write("<span style='font-size:25px;'>C&nbsp;&nbsp;&nbsp;</span>")
+                }
+            document.write("<input type='checkbox' name='bseatsno' class='seat-label' value=" +letters[2]+ i + ">");
+            if(i%10===0){ document.write("<br>");}
+        }
+        for(let i=1;i<=10;i++){
+            if(i==1){
+                document.write("<span style='font-size:25px;'>D&nbsp;&nbsp;&nbsp;</span>")
+                }
+            document.write("<input type='checkbox' name='bseatsno' class='seat-label' value=" +letters[3]+ i + ">");
+            if(i%10===0){ document.write("<br>");}
+            if(i==10){
+                    document.write("<br>Premium<br><br>");
+                }
+        }
+        for(let i=1;i<=10;i++){
+            
+            if(i==1){
+                document.write("<span style='font-size:25px;'>E&nbsp;&nbsp;&nbsp;</span>")
+                }
+            document.write("<input type='checkbox' name='cseatsno' class='seat-label' value=" +letters[4]+ i + ">");
+            if(i%10===0){ document.write("<br>");}
+        }
+        
+        </script>
+        
+        
+        <br><br>
+        <input type="submit" value="Book Tickets" id="t1">
+        <p id="display"></p>
+    </center>
+</div>
+    </form>
+  <!--  <script>
+        function add() {
+            times=document.getElementById("timings").value;
+            movie=document.getElementById("movies").value;
+            const seatinfo = [];
+            const output = document.getElementById("display");
+            const seatsbooked=[];
+            output.innerHTML = "";
+            movie=document.getElementById("movies").value;
+            times=document.getElementById("timings").value;
+
+            for (let i = 1; i <= 10; i++) {
+                seatinfo.push({ seatno: letters[0]+i, seattype: "Normal", cost: "150" });
+            }
+            for (let i = 1; i <= 10; i++) {
+                seatinfo.push({ seatno: letters[1]+i, seattype: "Normal", cost: "150" });
+            }
+            for (let i = 1; i <= 10; i++) {
+                seatinfo.push({ seatno: letters[2]+i, seattype: "Executive", cost: "200" });
+            }
+            for (let i = 1; i <= 10; i++) {
+                seatinfo.push({ seatno: letters[3]+i, seattype: "Executive", cost: "200" });
+            }
+            for (let i = 1; i <= 10; i++) {
+                seatinfo.push({ seatno: letters[4]+i, seattype: "Premium", cost: "400" });
+            }
+
+            const checkboxes = document.getElementsByName("seatsno");
+            var tcost = 0;
+           
+           /* output.innerHTML+=" <h2>Selected Movie...."+movie+"</h2>";*/
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkboxes[i].disabled = true; // Disable the selected checkbox
+                    const seatValue = checkboxes[i].value;
+                    for (let j = 0; j < seatinfo.length; j++) {
+                        if (seatinfo[j].seatno === seatValue) {
+                        //output.innerHTML += "<br><b>Seat No:</b> " + seatinfo[j].seatno + "<br><b>Type of Seat:</b> " + seatinfo[j].seattype + "<br><b>Cost of Seat:</b> " + seatinfo[j].cost + "<br>";
+                        tcost += parseInt(seatinfo[j].cost)
+                        seatsbooked.push(seatinfo[j].seatno);
+                        
+                            
+                        }
+                    }
+                    
+                }
+            }
+            //output.innerHTML+="ARRAY :"+seatsbooked;
+            if(seatsbooked.length===0){
+                    alert(" Please Select seats");
+                   
+            }
+            else if(movie==""){
+                alert("Please select movie");
+                for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkboxes[i].disabled = false; 
+                }
+            }
+            }
+            else if(times===""){
+                window.alert("Please select timings");
+                for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    checkboxes[i].disabled = false; 
+                }
+            }
+            }
+            else{
+                localStorage.setItem("tickets",seatsbooked);
+                localStorage.setItem("moviename",movie);
+                localStorage.setItem("time",times);
+                localStorage.setItem("total",tcost);
+                window.location.href = "payment.html";
+            }
+           
+
+            
+
+            
+            return false;
+        }
+    </script>-->
+</body>
