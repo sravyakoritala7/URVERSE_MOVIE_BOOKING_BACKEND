@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <MOVIE_DESC_ID>2</MOVIE_DESC_ID>
+  <MOVIE_DESC>Nelakonda Bhagavanth Kesari is adamant about getting even with a powerful businessman who cost him money. He is prepared to square off against the formidable foe and resolve their issues amicably.</MOVIE_DESC>
+  <TIME>2hr 10min</TIME>
+  <GENRE>Action|Drama</GENRE>
+  <RATING>8.7</RATING>
+  <LIKES>100K+ Likes</LIKES>
+  <YEAR>2023</YEAR>
+  <IMAGE>https://www.filmibeat.com/fanimg/movie/21180/bhagavanth-kesari-photos-images-85424.jpg</IMAGE>
+  <MOVIENAME>Bhagawanth Kesari</MOVIENAME>
+ </ROW>
+ <ROW>
+  <MOVIE_DESC_ID>3</MOVIE_DESC_ID>
+  <MOVIE_DESC> A gang leader makes a promise to a dying friend                      by taking on other criminal gangs.</MOVIE_DESC>
+  <TIME>2hr 50min</TIME>
+  <GENRE>Action|Crime|Thriller</GENRE>
+  <RATING>8.6</RATING>
+  <LIKES>500K+ Likes</LIKES>
+  <YEAR>2024</YEAR>
+  <IMAGE>https://i.pinimg.com/736x/f0/64/3f/f0643f638f85f73f878245ad84fd63bc.jpg</IMAGE>
+  <MOVIENAME>Salaar:Part 1 - Ceasefire</MOVIENAME>
+ </ROW>
+ <ROW>
+  <MOVIE_DESC_ID>4</MOVIE_DESC_ID>
+  <MOVIE_DESC>A kind of vindication of BTS—of their talent, authenticity, reach, and emotional connection with fans. All of those things had been called into question by critics, or at times by the artists themselves, in 2023.</MOVIE_DESC>
+  <TIME>3hr 57min</TIME>
+  <GENRE>CONCERT</GENRE>
+  <RATING>9</RATING>
+  <LIKES>2M+ Likes</LIKES>
+  <YEAR>2023</YEAR>
+  <IMAGE>https://images-na.ssl-images-amazon.com/images/I/81%2BggV5X6SL.jpg</IMAGE>
+  <MOVIENAME>BTS-Yet To Come</MOVIENAME>
+ </ROW>
+</ROWSET>

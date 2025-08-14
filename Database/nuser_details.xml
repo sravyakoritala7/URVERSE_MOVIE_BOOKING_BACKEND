@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <NUSERID>1</NUSERID>
+  <UNAME>manasa</UNAME>
+  <PASSWORD>manasa@9</PASSWORD>
+ </ROW>
+ <ROW>
+  <NUSERID>2</NUSERID>
+  <UNAME>sravya</UNAME>
+  <PASSWORD>sravya@5</PASSWORD>
+ </ROW>
+ <ROW>
+  <NUSERID>3</NUSERID>
+  <UNAME>rakesh</UNAME>
+  <PASSWORD>rakesh@7</PASSWORD>
+ </ROW>
+ <ROW>
+  <NUSERID>4</NUSERID>
+  <UNAME>vyshu</UNAME>
+  <PASSWORD>vyshu@8</PASSWORD>
+ </ROW>
+ <ROW>
+  <NUSERID>41</NUSERID>
+  <UNAME>rakesh@123</UNAME>
+  <PASSWORD>rakesh7</PASSWORD>
+ </ROW>
+</ROWSET>

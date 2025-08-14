@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <MOVIEID>1</MOVIEID>
+  <MOVIE_NAME>Bhagawanth Kesari</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>9:00AM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>2</MOVIEID>
+  <MOVIE_NAME>Bhagawanth Kesari</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>12:30PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>3</MOVIEID>
+  <MOVIE_NAME>Bhagawanth Kesari</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>3:00PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>4</MOVIEID>
+  <MOVIE_NAME>Leo</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>9:00AM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>5</MOVIEID>
+  <MOVIE_NAME>Leo</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>12:30PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>6</MOVIEID>
+  <MOVIE_NAME>Leo</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>3:00PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>7</MOVIEID>
+  <MOVIE_NAME>Bhagawanth Kesari	</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>9:00AM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>8</MOVIEID>
+  <MOVIE_NAME>Bhagawanth Kesari</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>12:30PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>9</MOVIEID>
+  <MOVIE_NAME>Bhagawanth Kesari</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>3:00PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>10</MOVIEID>
+  <MOVIE_NAME>Leo</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>9:00PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>11</MOVIEID>
+  <MOVIE_NAME>Leo</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>12:30PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>12</MOVIEID>
+  <MOVIE_NAME>Leo</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>3:00PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>13</MOVIEID>
+  <MOVIE_NAME>Salaar</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>9:00AM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>14</MOVIEID>
+  <MOVIE_NAME>Salaar</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>12:30PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>15</MOVIEID>
+  <MOVIE_NAME>Salaar</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>3:00PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>16</MOVIEID>
+  <MOVIE_NAME>Salaar</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>9:00AM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>17</MOVIEID>
+  <MOVIE_NAME>Salaar</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>12:30PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>18</MOVIEID>
+  <MOVIE_NAME>Salaar</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>3:00PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>19</MOVIEID>
+  <MOVIE_NAME>BTS:Yet To Come</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>9:00AM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>20</MOVIEID>
+  <MOVIE_NAME>BTS:Yet To Come</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>12:30PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>21</MOVIEID>
+  <MOVIE_NAME>BTS:Yet To Come</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: Power One Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>3:00PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>22</MOVIEID>
+  <MOVIE_NAME>BTS:Yet To Come</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>9:00AM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>23</MOVIEID>
+  <MOVIE_NAME>BTS:Yet To Come</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>12:30PM</TIMINGS>
+ </ROW>
+ <ROW>
+  <MOVIEID>24</MOVIEID>
+  <MOVIE_NAME>BTS:Yet To Come</MOVIE_NAME>
+  <THEATRE_NAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRE_NAME>
+  <TIMINGS>3:00PM</TIMINGS>
+ </ROW>
+</ROWSET>

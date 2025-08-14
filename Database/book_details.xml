@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <ID>47</ID>
+  <MOVIENAME>Bhagawanth Kesari</MOVIENAME>
+  <THEATRENAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRENAME>
+  <TIMINGS>12:30PM</TIMINGS>
+  <TOTAL_PRICE>200</TOTAL_PRICE>
+  <SEATS_BOOKED>B9, B10</SEATS_BOOKED>
+  <URL>https://www.filmibeat.com/fanimg/movie/21180/bhagavanth-kesari-photos-images-85424.jpg</URL>
+ </ROW>
+ <ROW>
+  <ID>48</ID>
+  <MOVIENAME>Leo</MOVIENAME>
+  <THEATRENAME>Cinepolis: Power One Mall, Vijayawada</THEATRENAME>
+  <TIMINGS>3:00PM</TIMINGS>
+  <TOTAL_PRICE>450</TOTAL_PRICE>
+  <SEATS_BOOKED>D8, D9, D10</SEATS_BOOKED>
+  <URL>https://ih1.redbubble.net/image.5297312179.5820/flat,750x,075,f-pad,750x1000,f8f8f8.jpg</URL>
+ </ROW>
+ <ROW>
+  <ID>49</ID>
+  <MOVIENAME>Bhagawanth Kesari</MOVIENAME>
+  <THEATRENAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRENAME>
+  <TIMINGS>3:00PM</TIMINGS>
+  <TOTAL_PRICE>300</TOTAL_PRICE>
+  <SEATS_BOOKED>C9, C10</SEATS_BOOKED>
+  <URL>https://www.filmibeat.com/fanimg/movie/21180/bhagavanth-kesari-photos-images-85424.jpg</URL>
+ </ROW>
+ <ROW>
+  <ID>50</ID>
+  <MOVIENAME>Salaar</MOVIENAME>
+  <THEATRENAME>Cinepolis: Power One Mall, Vijayawada</THEATRENAME>
+  <TIMINGS>12:30PM</TIMINGS>
+  <TOTAL_PRICE>300</TOTAL_PRICE>
+  <SEATS_BOOKED>A8, A9, A10</SEATS_BOOKED>
+  <URL>https://i.pinimg.com/736x/f0/64/3f/f0643f638f85f73f878245ad84fd63bc.jpg</URL>
+ </ROW>
+ <ROW>
+  <ID>51</ID>
+  <MOVIENAME>BTS:Yet To Come</MOVIENAME>
+  <THEATRENAME>Cinepolis: Power One Mall, Vijayawada</THEATRENAME>
+  <TIMINGS>9:00AM</TIMINGS>
+  <TOTAL_PRICE>200</TOTAL_PRICE>
+  <SEATS_BOOKED>A6, A7</SEATS_BOOKED>
+  <URL>https://images-na.ssl-images-amazon.com/images/I/81%2BggV5X6SL.jpg</URL>
+ </ROW>
+ <ROW>
+  <ID>52</ID>
+  <MOVIENAME>BTS:Yet To Come</MOVIENAME>
+  <THEATRENAME>Cinepolis: PVP Square Mall, Vijayawada</THEATRENAME>
+  <TIMINGS>9:00AM</TIMINGS>
+  <TOTAL_PRICE>200</TOTAL_PRICE>
+  <SEATS_BOOKED>B9, B10</SEATS_BOOKED>
+  <URL>https://images-na.ssl-images-amazon.com/images/I/81%2BggV5X6SL.jpg</URL>
+ </ROW>
+ <ROW>
+  <ID>53</ID>
+  <MOVIENAME>Leo</MOVIENAME>
+  <THEATRENAME>Cinepolis: Power One Mall, Vijayawada</THEATRENAME>
+  <TIMINGS>3:00PM</TIMINGS>
+  <TOTAL_PRICE>400</TOTAL_PRICE>
+  <SEATS_BOOKED>E1, E2</SEATS_BOOKED>
+  <URL>https://ih1.redbubble.net/image.5297312179.5820/flat,750x,075,f-pad,750x1000,f8f8f8.jpg</URL>
+ </ROW>
+ <ROW>
+  <ID>54</ID>
+  <MOVIENAME>Bhagawanth Kesari</MOVIENAME>
+  <THEATRENAME>Cinepolis: Power One Mall, Vijayawada</THEATRENAME>
+  <TIMINGS>12:30PM</TIMINGS>
+  <TOTAL_PRICE>550</TOTAL_PRICE>
+  <SEATS_BOOKED>A3, B7, C4, E4</SEATS_BOOKED>
+  <URL>https://www.filmibeat.com/fanimg/movie/21180/bhagavanth-kesari-photos-images-85424.jpg</URL>
+ </ROW>
+ <ROW>
+  <ID>55</ID>
+  <MOVIENAME>Bhagawanth Kesari</MOVIENAME>
+  <THEATRENAME>Cinepolis: Power One Mall, Vijayawada</THEATRENAME>
+  <TIMINGS>12:30PM</TIMINGS>
+  <TOTAL_PRICE>550</TOTAL_PRICE>
+  <SEATS_BOOKED>A3, B7, C4, E4</SEATS_BOOKED>
+  <URL>https://www.filmibeat.com/fanimg/movie/21180/bhagavanth-kesari-photos-images-85424.jpg</URL>
+ </ROW>
+ <ROW>
+  <ID>56</ID>
+  <MOVIENAME>Bhagawanth Kesari</MOVIENAME>
+  <THEATRENAME>Cinepolis: Power One Mall, Vijayawada</THEATRENAME>
+  <TIMINGS>12:30PM</TIMINGS>
+  <TOTAL_PRICE>550</TOTAL_PRICE>
+  <SEATS_BOOKED>A3, B7, C4, E4</SEATS_BOOKED>
+  <URL>https://www.filmibeat.com/fanimg/movie/21180/bhagavanth-kesari-photos-images-85424.jpg</URL>
+ </ROW>
+ <ROW>
+  <ID>57</ID>
+  <MOVIENAME>Bhagawanth Kesari</MOVIENAME>
+  <THEATRENAME>Cinepolis: Power One Mall, Vijayawada</THEATRENAME>
+  <TIMINGS>9:00AM</TIMINGS>
+  <TOTAL_PRICE>450</TOTAL_PRICE>
+  <SEATS_BOOKED>A1, C1, E4</SEATS_BOOKED>
+  <URL>https://www.filmibeat.com/fanimg/movie/21180/bhagavanth-kesari-photos-images-85424.jpg</URL>
+ </ROW>
+</ROWSET>
